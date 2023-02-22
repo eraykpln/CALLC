@@ -396,7 +396,7 @@ h6 {
   color: #151515;
 }
 
-.navbar-mobile .dropdown ul a i {
+.navbar-mobile .droopdown ul a i {
   font-size: 12px;
 }
 
@@ -604,6 +604,10 @@ section {
 .clients {
   padding-top: 20px;
 }
+#clients{
+  padding-bottom: 0px;
+
+}
 
 .clients .swiper-slide img {
   opacity: 0.5;
@@ -637,7 +641,9 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  padding-top: 20px;
+padding: 0px;
+height: 30rem;
+
 }
 
 .features .icon-box {
@@ -658,7 +664,7 @@ section {
 
 .features .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #ffffff;
   margin-left: 60px;
 }
 
@@ -1583,11 +1589,9 @@ section {
 }
 .player-video {
   border-radius: 5%;
-  overflow: hidden;
-  overflow: hidden;
 
-  height: 560px;
-  width: 720px;
+  height: 100%;
+  width: 100%;
 }
 .video-container {
   height: 300px;
@@ -1602,7 +1606,9 @@ position: absolute;
 object-fit: cover;
 z-index: 0;
 }
-
+.video{
+  opacity: 30%;
+}
 /* Just styling the content of the div, the *magic* in the previous rules */
 .video-container .caption {
 z-index: 1;

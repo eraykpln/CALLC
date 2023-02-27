@@ -1,5 +1,5 @@
 /**
-* Template Name: Gp - v4.10.0
+* Template Name: Gp - v4.10.0 this website is inspired by this template and manipulated by github/ekpln @eraykkaplan@hotmail.com
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -284,9 +284,12 @@
     });
   });
 
-  const selector = document.querySelector('.yourdiv')
+  const selector = document.getElementById('magic')
+  selector.classList.add
     selector.classList.add('magictime', 'swap')
-
+    const para = document.createElement('p');
+     para.textContent = 'We hope you enjoyed the ride.';
+  selector.appendChild(para)
   /**
    * Initiate Pure Counter 
    */

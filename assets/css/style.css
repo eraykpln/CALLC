@@ -882,8 +882,10 @@ height: 30rem;
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
+  transform: rotate3d(0,1,0,180deg)
+  
 }
+
 
 /*--------------------------------------------------------------
 # Cta
@@ -1798,5 +1800,12 @@ padding: 10px;
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
  }
+
+.rotate:hover {
+  font-size: 30px;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
 
  

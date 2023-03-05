@@ -726,9 +726,10 @@ height: 30rem;
   
 }
 .services .icon-box:hover .ct-services{
+  height: 0px;
+  width: 0px;
   content-visibility: hidden;
-  height: 1px;
-  width: 1px;
+  
 }
 
 .services .icon-box .icon {

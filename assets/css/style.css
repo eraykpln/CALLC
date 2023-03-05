@@ -713,22 +713,22 @@ height: 30rem;
 }
 .services .icon-box:hover .bg-services
 {  content-visibility: visible;
-  opacity: 1;
+  opacity: 0.9;
  
   transition: opacity 1.5s ease-in-out;
   height: 100%;
   width: 100%;
   
 }
-.services .icon-box .ctservices{
+.services .icon-box .ct-services{
   
-  content-visibility: visible;
+  display: auto;
   
 }
 .services .icon-box:hover .ct-services{
   height: 0px;
   width: 0px;
-  content-visibility: hidden;
+  display: none;
   
 }
 

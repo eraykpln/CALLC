@@ -706,13 +706,18 @@ height: 30rem;
 }
 .services .icon-box .bg-services{
   content-visibility: hidden;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
   opacity: 0;
 }
 .services .icon-box:hover .bg-services
 {  content-visibility: visible;
   opacity: 1;
-  transition-delay: 0.5s;
-
+ 
+  transition: opacity 1.5s ease-in-out;
+  height: 100%;
+  width: 100%;
   
 }
 .services .icon-box .ctservices{
@@ -722,6 +727,8 @@ height: 30rem;
 }
 .services .icon-box:hover .ct-services{
   content-visibility: hidden;
+  height: 1px;
+  width: 1px;
 }
 
 .services .icon-box .icon {

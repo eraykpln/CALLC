@@ -386,7 +386,7 @@
               </div>
             </div>
             <div class="col-lg-8 mt-5 mt-lg-0">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="mailto:contact@centralamericallc.com" method="get" enctype="text/plain">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -399,15 +399,11 @@
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="body" rows="5" placeholder="Message" required></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
+  
+                <div class="text-center mt-1">
+                  <button class="btn btn-warning" type="submit" id="sendmail">Send Message</button>
                 </div>
               </form>
             </div>
@@ -541,7 +537,6 @@
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="https://kit.fontawesome.com/005bfd08f0.js" crossorigin="anonymous"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>

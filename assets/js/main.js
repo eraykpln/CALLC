@@ -1,9 +1,4 @@
-/**
-* Template Name: Gp - v4.10.0 this website is inspired by this template and manipulated by github/ekpln @eraykkaplan@hotmail.com
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -296,3 +291,4 @@
   new PureCounter();
 
 })()
+
